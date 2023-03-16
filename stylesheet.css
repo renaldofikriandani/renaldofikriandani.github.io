@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+header {
+    height: 115px;
+    width: 100%;
+    background-color: rgba(219, 143, 20, 0.8);
+    position : fixed;
+    top : 0;    
+    z-index : 10;
+}
+
+.logoheader {
+    width: 200px;
+    margin-top: 0;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    line-height: 65px;
+    margin: 22px 10px;
+    /* padding: 0 5px; */
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.untuk-main-wrapper {
+    height: 1700px;
+    background-color: black;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+
+.film-untuk-main {
+   float: left;
+    width: 25%;   
+    margin-bottom: 20px;     
+}
+
+.film-main-gambar {
+    position: relative;
+}
+.film-main-gambar img {
+    width: 200px;
+    height: 300px;    
+    cursor: pointer;
+}
+.film-main-gambar p {
+    position: absolute;
+    top :0px;
+    left: 60px;   
+}
+
+.hd720 {
+    background-color: green;
+    border-radius: 4px; 
+}
+
+.hd1080 {
+    background-color: blue;
+    border-radius: 4px; 
+}
+
+.film-untuk-main p {
+    color: white;
+}
+
+.info-media-sosial {
+    height: 100px;
+}
+
+.sosial-media1 {
+    float: left;
+}
+
+.sosial-media2 {
+    float: right;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+
+.facebook {
+    background-color: #036ffc;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #03a9fc;
+}
+
+.instagram {
+    background-color: #a80c74;
+}
+
+.telegram {
+    background-color: #10648f;
+}
+
+.whatsapp {
+    background-color: #09d940;
+}
+
+.orange {
+    
+    padding: 15px 40px;
+    background-color:rgb(219, 143, 20);
+    cursor: pointer;
+    box-shadow: 0 7px #d4b179;
+}
+
+.orange:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+.formulir {
+    height: 200px;
+    background-color: #d4d7d9;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color : #b35a07;
+    height: 300px;    
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+footer img {
+    width: 300px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.subscribe {
+    margin-top: 35px;
+}
+
+.untuk-main {
+    background-color: blue;
+    height: 300px;
+    padding: 180px 0 100px 0;
+    background-image: url(https://subkultur.id/wp-content/uploads/2022/08/HEADER-BARU7.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
